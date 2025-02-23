@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.GameLogicTest" time="0.059" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="java.class.path" value="C:\Users\varga\Documents\GitHub\java-ui-open-assignment-Anna4488\tictactoe\target\test-classes;C:\Users\varga\.m2\repository\org\openjfx\javafx-controls\13\javafx-controls-13.jar;C:\Users\varga\.m2\repository\org\openjfx\javafx-graphics\13\javafx-graphics-13.jar;C:\Users\varga\.m2\repository\org\openjfx\javafx-base\13\javafx-base-13.jar;C:\Users\varga\.m2\repository\org\openjfx\javafx-fxml\13\javafx-fxml-13.jar;C:\Users\varga\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\varga\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Europe/Amsterdam"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Users\varga\AppData\Local\Temp\surefire13166299759132271161 2025-01-12T19-52-11_981-jvmRun1 surefire-20250112195212326_1tmp surefire_0-20250112195212326_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="com.example.GameLogicTest"/>
+    <property name="surefire.test.class.path" value="C:\Users\varga\Documents\GitHub\java-ui-open-assignment-Anna4488\tictactoe\target\test-classes;C:\Users\varga\.m2\repository\org\openjfx\javafx-controls\13\javafx-controls-13.jar;C:\Users\varga\.m2\repository\org\openjfx\javafx-graphics\13\javafx-graphics-13.jar;C:\Users\varga\.m2\repository\org\openjfx\javafx-base\13\javafx-base-13.jar;C:\Users\varga\.m2\repository\org\openjfx\javafx-fxml\13\javafx-fxml-13.jar;C:\Users\varga\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\varga\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\varga"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="jdk.module.path" value="C:\Users\varga\Documents\GitHub\java-ui-open-assignment-Anna4488\tictactoe\target\classes;C:\Users\varga\.m2\repository\org\openjfx\javafx-controls\13\javafx-controls-13-win.jar;C:\Users\varga\.m2\repository\org\openjfx\javafx-graphics\13\javafx-graphics-13-win.jar;C:\Users\varga\.m2\repository\org\openjfx\javafx-base\13\javafx-base-13-win.jar;C:\Users\varga\.m2\repository\org\openjfx\javafx-fxml\13\javafx-fxml-13-win.jar"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\varga\Documents\GitHub\java-ui-open-assignment-Anna4488\tictactoe"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\varga\.m2\repository\org\apache\maven\surefire\surefire-booter\3.2.5\surefire-booter-3.2.5.jar;C:\Users\varga\.m2\repository\org\apache\maven\surefire\surefire-api\3.2.5\surefire-api-3.2.5.jar;C:\Users\varga\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.2.5\surefire-logger-api-3.2.5.jar;C:\Users\varga\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.2.5\surefire-shared-utils-3.2.5.jar;C:\Users\varga\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.2.5\surefire-extensions-spi-3.2.5.jar;C:\Users\varga\Documents\GitHub\java-ui-open-assignment-Anna4488\tictactoe\target\test-classes;C:\Users\varga\.m2\repository\org\openjfx\javafx-controls\13\javafx-controls-13.jar;C:\Users\varga\.m2\repository\org\openjfx\javafx-graphics\13\javafx-graphics-13.jar;C:\Users\varga\.m2\repository\org\openjfx\javafx-base\13\javafx-base-13.jar;C:\Users\varga\.m2\repository\org\openjfx\javafx-fxml\13\javafx-fxml-13.jar;C:\Users\varga\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\varga\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\varga\.m2\repository\org\apache\maven\surefire\surefire-junit4\3.2.5\surefire-junit4-3.2.5.jar;C:\Users\varga\.m2\repository\org\apache\maven\surefire\common-java5\3.2.5\common-java5-3.2.5.jar;C:\Users\varga\.m2\repository\org\apache\maven\surefire\common-junit3\3.2.5\common-junit3-3.2.5.jar;C:\Users\varga\.m2\repository\org\apache\maven\surefire\common-junit4\3.2.5\common-junit4-3.2.5.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.4+7-LTS"/>
+    <property name="user.name" value="varga"/>
+    <property name="stdout.encoding" value="Cp1250"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-21.0.4+7"/>
+    <property name="maven.ext.class.path" value="C:\Users\varga\.vscode\extensions\oracle.oracle-java-23.0.1\nbcode\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\varga\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\varga\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.4"/>
+    <property name="user.dir" value="C:\Users\varga\Documents\GitHub\java-ui-open-assignment-Anna4488\tictactoe"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1250"/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\AOMEI\AOMEI Backupper\7.4.1;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\apache-maven-3.9.9\bin;C:\Program Files\javafx-sdk-23.0.1\lib;C:\Users\varga\AppData\Local\Microsoft\WindowsApps;C:\Users\varga\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\varga\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="stderr.encoding" value="Cp1250"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.4+7-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testCheckWin" classname="com.example.GameLogicTest" time="0.005"/>
+  <testcase name="testIsBoardFull" classname="com.example.GameLogicTest" time="0.0"/>
+  <testcase name="testInitializeBoard" classname="com.example.GameLogicTest" time="0.0"/>
+  <testcase name="testMakeMove" classname="com.example.GameLogicTest" time="0.0"/>
+  <testcase name="testMakeMoveInvalid" classname="com.example.GameLogicTest" time="0.0"/>
+</testsuite>
